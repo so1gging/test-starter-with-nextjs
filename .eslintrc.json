@@ -1,3 +1,8 @@
 {
-  "extends": "next/core-web-vitals"
+  "extends": "next/core-web-vitals",
+  "rules": {
+    "curly": ["error", "all"],
+    "no-console": "warn",
+    "react/jsx-curly-brace-presence": ["error", "never"]
+  }
 }
